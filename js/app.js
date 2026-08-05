@@ -82,7 +82,10 @@
       const point = L.circleMarker(center, { radius: 7, color: "#fff", weight: 2, fillColor: "#b8752a", fillOpacity: 1 });
       [polygon, point].forEach((layer) => {
         layer.bindTooltip(tooltip, { sticky: true });
-        layer.on("click", (event) => { L.DomEvent.stopPropagation(event); renderFricheDetail(feature); });
+        layer.on("click", (event) => {
+          L.DomEvent.stopPropagation(event);
+          window.open(`friche.html?id=${encodeURIComponent(feature.id)}`, "_blank", "noopener");
+        });
         fricheItems.push(layer);
       });
     });
