@@ -1,0 +1,43 @@
+{
+  "cerema_conso": {
+    "producteur": "Cerema / DGALN",
+    "jeu": "Consommation d'espaces naturels, agricoles et forestiers issue des Fichiers fonciers",
+    "page": "https://artificialisation.developpement-durable.gouv.fr/mesurer-les-espaces-consommes",
+    "api": "https://apidf-preprod.cerema.fr/indicateurs/conso_espace/",
+    "millesime": "2011-2024",
+    "date_recuperation": "2026-08-05",
+    "licence": "Licence Ouverte / Etalab",
+    "prudence": "La consommation d'ENAF et l'artificialisation au sens de l'OCS GE sont deux mesures distinctes."
+  },
+  "cartofriches": {
+    "producteur": "Cerema",
+    "jeu": "Cartofriches — inventaire national des friches",
+    "page": "https://cartofriches.cerema.fr/cartofriches/",
+    "api": "https://apidf-preprod.cerema.fr/cartofriches/geofriches/",
+    "date_recuperation": "2026-08-05",
+    "licence": "Licence Ouverte / Etalab",
+    "prudence": "Inventaire évolutif et non exhaustif. Une friche recensée n'est pas automatiquement mobilisable ou constructible."
+  },
+  "insee_logement_2023": {
+    "producteur": "Insee",
+    "jeu": "Recensement de la population 2023 — Logement",
+    "page": "https://www.insee.fr/fr/statistiques/8998387",
+    "millesime": 2023,
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte / Etalab",
+    "prudence": "Utilisé seulement comme repère simple sur les formes résidentielles ; il ne mesure pas à lui seul la densité urbaine."
+  },
+  "ocs_ge": {
+    "producteur": "IGN",
+    "jeu": "Occupation du sol à grande échelle (OCS GE)",
+    "page": "https://artificialisation.developpement-durable.gouv.fr/bases-donnees/ocs-ge",
+    "licence": "Licence Ouverte / Etalab",
+    "prudence": "Référence de définition et de lecture ; les millésimes et couvertures doivent être vérifiés avant toute comparaison diachronique."
+  },
+  "zan_repere": {
+    "producteur": "Calcul DDT 95 à vocation pédagogique",
+    "definition": "50 % de la consommation d'ENAF observée entre 2011 et 2020",
+    "periode": "2021-2030",
+    "prudence": "Ce repère ne remplace ni la territorialisation juridique ni les objectifs opposables des documents de planification."
+  }
+}
