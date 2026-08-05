@@ -9,13 +9,22 @@
   const present = (value) => value !== null && value !== undefined && value !== "" && value !== "inconnu" && value !== "non renseigné";
   const fmt = (value, digits = 1) => Number(value).toLocaleString("fr-FR", { maximumFractionDigits: digits });
   const yesNo = (value) => value === "oui" ? "Oui" : value === "non" ? "Non" : value;
-  const cleanList = (value) => {
-    if (!Array.isArray(value)) return value;
-    const joined = value.join("");
-    return joined.replace(/^\{\"?/, "").replace(/\"?\}$/, "").trim();
+  const parseList = (value) => {
+    if (!present(value)) return [];
+    let text = Array.isArray(value) ? value.join("") : String(value);
+    text = text.trim().replace(/^\{/, "").replace(/\}$/, "").replace(/^\[/, "").replace(/\]$/, "");
+    return text.split(/\s*[;,]\s*(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map((part) => part.trim().replace(/^['\"]+|['\"]+$/g, "").replace(/\"\"/g, "\"")).filter(Boolean);
   };
   function item(label, value, unit = "") {
-    return `<div class="kpi"><small>${esc(label)}</small><strong>${present(value) ? esc(value) + unit : '<span class="data-missing">Non renseigné</span>'}</strong></div>`;
+    if (!present(value)) return "";
+    return `<div class="kpi"><small>${esc(label)}</small><strong>${esc(value)}${unit}</strong></div>`;
+  }
+  function listBlock(label, values, variant = "") {
+    const list = parseList(values);
+    if (!list.length) return "";
+    const limit = variant === "cadastre" ? 24 : list.length;
+    const visible = list.slice(0, limit);
+    return `<article class="detail-list-card ${variant}"><small>${esc(label)} · ${list.length}</small><div class="detail-chip-list">${visible.map((value) => `<span>${esc(value)}</span>`).join("")}</div>${list.length > limit ? `<em class="detail-list-more">+ ${list.length - limit} autres références conservées dans la source</em>` : ""}</article>`;
   }
   function section(kicker, title, content, note = "") {
     return `<section class="section"><div class="section-head"><div><small>${kicker}</small><h2>${title}</h2></div>${note ? `<p>${note}</p>` : ""}</div>${content}</section>`;
@@ -41,7 +50,7 @@
         ${section("03 · URBANISME", "Zonage et vocation", `<div class="kpi-grid kpi-grid-six">${item("Document d’urbanisme", p.urba_doc_type)}${item("Type de zone", p.urba_zone_type)}${item("Libellé de zone", p.urba_zone_lib)}${item("Forme dominante", p.urba_zone_formdomi_txt)}${item("Zone d’activités", yesNo(p.zone_activites))}${item("Vocation déclarée", p.site_vocadomi)}</div>`)}
         ${section("04 · ÉTAT DU SITE", "Pollution, bâti et environnement", `<div class="kpi-grid kpi-grid-six">${item("Pollution des sols", p.sol_pollution_existe)}${item("Origine de la pollution", p.sol_pollution_origine)}${item("Pollution du bâti", p.bati_pollution)}${item("État du bâti", p.bati_etat)}${item("Vacance du bâti", p.bati_vacance)}${item("Sécurisation", p.site_securite)}${item("Monument historique", yesNo(p.monuhisto))}${item("À moins de 500 m d’un monument", yesNo(p.monuhisto500))}${item("Contexte environnemental", environmental)}</div>${present(p.sol_pollution_commentaire) ? `<div class="method-note"><strong>Commentaire pollution :</strong> ${esc(p.sol_pollution_commentaire)}</div>` : ""}`)}
         ${section("05 · ACCESSIBILITÉ", "Desserte connue", `<div class="kpi-grid kpi-grid-six">${item("Distance à la route", p.desserte_distance_route, present(p.desserte_distance_route) ? " m" : "")}${item("Distance au ferroviaire", p.desserte_distance_ferroviaire, present(p.desserte_distance_ferroviaire) ? " m" : "")}${item("Distance au fluvial", p.desserte_distance_fluvial, present(p.desserte_distance_fluvial) ? " m" : "")}${item("Distance à une ITE en bon état", present(p.distance_ite_bon) ? fmt(p.distance_ite_bon) : null, " km")}</div>`)}
-        ${section("06 · PROJET ET HISTORIQUE", "Ce qui est documenté", `<div class="kpi-grid kpi-grid-six">${item("Activité antérieure", p.activite_libelle)}${item("Fin d’activité", p.activite_fin_annee)}${item("Année de mutation", p.date_mutation)}${item("Projet de reconversion", p.site_reconv_type)}${item("Année de reconversion", p.site_reconv_annee)}${item("Propriétaire — catégorie", p.proprio_personne)}${item("Propriétaire — nom public", cleanList(p.proprio_nom))}${item("Références cadastrales", p.unite_fonciere_refcad)}</div>${sourceLink(p.site_projet_url, "Consulter la page du projet")}`)}
+        ${section("06 · PROJET ET HISTORIQUE", "Ce qui est documenté", `<div class="kpi-grid kpi-grid-six">${item("Activité antérieure", p.activite_libelle)}${item("Fin d’activité", p.activite_fin_annee)}${item("Année de mutation", p.date_mutation)}${item("Projet de reconversion", p.site_reconv_type)}${item("Année de reconversion", p.site_reconv_annee)}${item("Propriétaire — catégorie", p.proprio_personne)}</div><div class="detail-list-grid">${listBlock("Propriétaires publics mentionnés dans la source", p.proprio_nom, "owners")}${listBlock("Références cadastrales", p.unite_fonciere_refcad, "cadastre")}</div>${sourceLink(p.site_projet_url, "Consulter la page du projet")}`)}
         ${section("07 · SOURCE ET PRUDENCE", "Traçabilité de la fiche", `<div class="kpi-grid kpi-grid-six">${item("Source", p.source_nom)}${item("Producteur", p.source_producteur)}${item("Date d’identification", p.site_identif_date)}${item("Dernière actualisation du site", p.site_actu_date)}${item("Création de l’enregistrement", p.date_creation)}${item("Nature de la source", p.nature)}</div>${sourceLink(p.source_url, "Consulter la source d’origine")}${sourceLink(p.site_url, "Consulter la fiche externe")}${sourceLink(p.site_ademe_url, "Consulter la référence ADEME")}<div class="method-note"><strong>Important :</strong> cette fiche compile les informations publiques présentes dans Cartofriches à la date d’extraction. Elle ne vaut ni diagnostic foncier, ni étude de pollution, ni certificat d’urbanisme, ni décision de constructibilité. Une donnée non renseignée doit être vérifiée auprès du producteur ou de la collectivité compétente.</div>`)}
       </div></div>`;
   }
