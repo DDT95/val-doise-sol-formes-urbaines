@@ -269,11 +269,11 @@
 
   function openTerritoryData() {
     if (!state.selected) {
-      window.location.href = "fiche.html?type=departement";
+      window.open("fiche.html?type=departement", "_blank", "noopener");
       return;
     }
     const url = state.scale === "epci" ? `fiche.html?type=epci&id=${encodeURIComponent(state.selected)}` : `fiche.html?type=commune&id=${encodeURIComponent(state.selected)}`;
-    window.location.href = url;
+    window.open(url, "_blank", "noopener");
   }
   ["openData", "openDataTop"].forEach((id) => document.getElementById(id)?.addEventListener("click", openTerritoryData));
 
