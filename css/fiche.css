@@ -235,6 +235,35 @@ body {
   font-size: 16px;
   line-height: 1.55;
 }
+.friche-cover h1 {
+  max-width: 900px;
+  font-size: clamp(48px, 6vw, 82px);
+  line-height: 0.94;
+}
+.friche-cover .cover-source {
+  max-width: 760px;
+  margin: 22px 0 10px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+.cover-source span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--cyan);
+  font-size: 9px;
+  letter-spacing: .12em;
+}
+.source-name {
+  margin-top: 18px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--cyan);
+  border-radius: 0 14px 14px 0;
+  background: #f3f6f8;
+}
+.source-name small { color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: .1em; }
+.source-name p { margin: 7px 0 0; color: var(--navy); font-size: 15px; line-height: 1.4; font-weight: 700; overflow-wrap: anywhere; }
 .cover-meta {
   position: absolute;
   left: 48px;
