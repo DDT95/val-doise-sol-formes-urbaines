@@ -306,14 +306,10 @@
   comprendreDialog.addEventListener("click", (e) => { if (e.target === comprendreDialog) comprendreDialog.close(); });
 
   function openTerritoryData() {
-    if (!state.selected) {
-      window.open("fiche.html?type=departement", "_blank", "noopener");
-      return;
-    }
-    const url = state.scale === "epci" ? `fiche.html?type=epci&id=${encodeURIComponent(state.selected)}` : `fiche.html?type=commune&id=${encodeURIComponent(state.selected)}`;
-    window.open(url, "_blank", "noopener");
+    const url = !state.selected ? "fiche.html?type=departement" : state.scale === "epci" ? `fiche.html?type=epci&id=${encodeURIComponent(state.selected)}` : `fiche.html?type=commune&id=${encodeURIComponent(state.selected)}`;
+    ["openData", "openDataTop"].forEach((id) => document.getElementById(id)?.setAttribute("href", url));
   }
-  ["openData", "openDataTop"].forEach((id) => document.getElementById(id)?.addEventListener("click", openTerritoryData));
+  ["openData", "openDataTop"].forEach((id) => ["pointerdown", "click"].forEach((eventName) => document.getElementById(id)?.addEventListener(eventName, openTerritoryData)));
 
   // ---------- Selection ----------
   function selectFromMap(code) {
