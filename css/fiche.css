@@ -884,9 +884,8 @@ body {
 .friche-rank-list { margin-top: 20px; }
 .friche-rank-list h3 { display: flex; align-items: baseline; gap: 8px; }
 .friche-rank-list h3 small { color: #718090; font-size: 10px; font-weight: 700; }
-.friche-rank-list .rank-row { grid-template-columns: 34px minmax(0, 1fr); }
-.friche-rank-list .rank-row i { color: #94a2af; font-size: 10px; font-style: normal; }
-.friche-rank-list .rank-row span { min-width: 0; overflow-wrap: anywhere; }
-.friche-rank-list.cadastre .rank-row span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: .02em; }
+.friche-rank-list .rank-row { grid-template-columns: 34px minmax(0, 1fr); align-items: baseline; }
+.friche-rank-list .rank-row span { min-width: 0; overflow-wrap: break-word; word-break: normal; }
+.friche-rank-list.cadastre .rank-row span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: .02em; white-space: nowrap; }
 .detail-list-more { display: block; margin: 12px 0 0; color: #647381; font-size: 10px; font-weight: 700; }
 @media print { .friche-rank-list { break-inside: avoid; } }

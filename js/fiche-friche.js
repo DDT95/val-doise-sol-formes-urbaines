@@ -26,7 +26,7 @@
     if (!list.length) return "";
     const limit = variant === "cadastre" ? 24 : list.length;
     const visible = list.slice(0, limit);
-    return `<div class="rank-list friche-rank-list ${variant}"><h3>${esc(label)} <small>${list.length}</small></h3>${visible.map((value, index) => `<div class="rank-row"><i>${String(index + 1).padStart(2, "0")}</i><span>${esc(value)}</span></div>`).join("")}${list.length > limit ? `<p class="detail-list-more">+ ${list.length - limit} autres références conservées dans la source Cartofriches</p>` : ""}</div>`;
+    return `<div class="rank-list friche-rank-list ${variant}"><h3>${esc(label)} <small>${list.length}</small></h3>${visible.map((value) => `<div class="rank-row"><span>${esc(value)}</span></div>`).join("")}${list.length > limit ? `<p class="detail-list-more">+ ${list.length - limit} autres références conservées dans la source Cartofriches</p>` : ""}</div>`;
   }
   function section(kicker, title, content, note = "") {
     return `<section class="section"><div class="section-head"><div><small>${kicker}</small><h2>${title}</h2></div>${note ? `<p>${note}</p>` : ""}</div>${content}</section>`;
