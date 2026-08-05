@@ -68,6 +68,7 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
 .sidebar-hint strong{display:block;color:var(--navy);font-size:12px;margin-bottom:4px}
 
 .detail-panel{position:absolute;right:16px;top:16px;bottom:16px;width:410px;background:linear-gradient(180deg,#fff 0,#fff 72%,#f4f7fb 100%);z-index:1000;box-shadow:-15px 0 45px rgba(0,31,63,.16);border-radius:27px;transform:translateX(calc(105% + 16px));transition:.3s ease;padding:30px;overflow:auto}
+.friche-marker-shell{background:transparent;border:0}.friche-map-point{display:block;width:18px;height:18px;border:3px solid #fff;border-radius:50%;background:#b8752a;box-shadow:0 2px 8px rgba(72,39,8,.45);transition:transform .15s,background .15s}.friche-map-point:hover,.friche-map-point:focus-visible{background:#7a3f08;transform:scale(1.25);outline:3px solid rgba(184,117,42,.3);outline-offset:2px}
 .detail-panel.open{transform:none}
 .close-btn{position:absolute;right:16px;top:14px;width:34px;height:34px;border:0;border-radius:50%;background:#eff3f4;color:var(--navy);font-size:21px;z-index:2}
 .detail-tag{font-size:10px;font-weight:700;letter-spacing:.13em;color:var(--blue);text-transform:uppercase}

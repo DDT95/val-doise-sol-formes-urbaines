@@ -79,15 +79,12 @@
       const tooltip = `<b>${htmlEsc(p.site_nom || feature.id)}</b><br>${htmlEsc(p.comm_nom || "Commune non renseignée")}`;
       const polygon = L.geoJSON(feature, { style: () => ({ color: "#8a4b12", weight: 1.5, fillColor: "#d88931", fillOpacity: 0.28 }) });
       const center = polygon.getBounds().getCenter();
-      const point = L.circleMarker(center, { radius: 7, color: "#fff", weight: 2, fillColor: "#b8752a", fillOpacity: 1 });
-      [polygon, point].forEach((layer) => {
-        layer.bindTooltip(tooltip, { sticky: true });
-        layer.on("click", (event) => {
-          L.DomEvent.stopPropagation(event);
-          window.open(`friche.html?id=${encodeURIComponent(feature.id)}`, "_blank", "noopener");
-        });
-        fricheItems.push(layer);
-      });
+      const url = `friche.html?id=${encodeURIComponent(feature.id)}`;
+      const point = L.marker(center, { icon: L.divIcon({ className: "friche-marker-shell", html: `<a class="friche-map-point" href="${url}" target="_blank" rel="noopener" aria-label="Ouvrir la fiche ${htmlEsc(p.site_nom || feature.id)} dans un nouvel onglet"></a>`, iconSize: [18, 18], iconAnchor: [9, 9] }) });
+      polygon.bindTooltip(tooltip, { sticky: true });
+      polygon.bindPopup(`<strong>${htmlEsc(p.site_nom || feature.id)}</strong><br><a href="${url}" target="_blank" rel="noopener">Ouvrir la fiche dans un nouvel onglet ↗</a>`);
+      point.bindTooltip(tooltip, { sticky: true });
+      fricheItems.push(polygon, point);
     });
     frichesLayer = L.layerGroup(fricheItems);
     prepareEpciColors();
@@ -207,7 +204,7 @@
         if (state.frichesVisible) {
           frichesLayer?.addTo(map);
           frichesLayer?.eachLayer((layer) => layer.bringToFront?.());
-          document.getElementById("mapStatus").textContent = `${state.friches.length} friches affichées · cliquez sur un site pour ouvrir son volet`;
+          document.getElementById("mapStatus").textContent = `${state.friches.length} friches affichées · cliquez sur un point pour ouvrir sa fiche dans un nouvel onglet`;
         } else {
           if (frichesLayer) map.removeLayer(frichesLayer);
           document.getElementById("detailPanel").classList.remove("open");
