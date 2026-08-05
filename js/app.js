@@ -375,6 +375,7 @@
     const status = p.site_statut && p.site_statut !== "inconnu" ? p.site_statut : "Non renseigné";
     const occupation = p.site_occupation && p.site_occupation !== "inconnu" ? p.site_occupation : "Non renseignée";
     const titleClass = String(p.site_nom || feature.id).length > 65 ? "friche-title compact" : "friche-title";
+    detailContent.className = "friche-detail";
     detailContent.innerHTML = `
       <span class="detail-tag">FRICHE · CARTOFRICHES</span>
       <h2 class="${titleClass}">${htmlEsc(p.site_nom || feature.id)}</h2>
@@ -387,12 +388,12 @@
       </div>
       <div class="section-block">
         <strong>Urbanisme et état du site</strong>
-        <div class="kpi-grid">
-          <div class="kpi-tile"><small>Zonage</small><strong>${htmlEsc(p.urba_zone_lib || p.urba_zone_type || "Non renseigné")}</strong></div>
-          <div class="kpi-tile"><small>Pollution des sols</small><strong>${htmlEsc(pollution)}</strong></div>
-          <div class="kpi-tile"><small>Bâtiments recensés</small><strong>${p.bati_nombre == null ? "Non renseigné" : Math.round(p.bati_nombre).toLocaleString("fr-FR")}</strong></div>
-          <div class="kpi-tile"><small>Source</small><strong>${htmlEsc(p.source_nom || p.source_producteur || "Cartofriches")}</strong></div>
-        </div>
+        <dl class="friche-info-list">
+          <div><dt>Zonage</dt><dd>${htmlEsc(p.urba_zone_lib || p.urba_zone_type || "Non renseigné")}</dd></div>
+          <div><dt>Pollution des sols</dt><dd>${htmlEsc(pollution)}</dd></div>
+          <div><dt>Bâtiments recensés</dt><dd>${p.bati_nombre == null ? "Non renseigné" : Math.round(p.bati_nombre).toLocaleString("fr-FR")}</dd></div>
+          <div><dt>Source</dt><dd>${htmlEsc(p.source_nom || p.source_producteur || "Cartofriches")}</dd></div>
+        </dl>
       </div>
       <a class="profile-link" href="${profileUrl}" target="_blank" rel="noopener">Voir la fiche complète et le PDF <span>↗</span></a>
       <p class="detail-method">Une friche recensée constitue un potentiel à qualifier. La présence dans Cartofriches ne vaut ni diagnostic de pollution, ni décision de constructibilité.</p>`;
@@ -404,6 +405,7 @@
     const p = isEpci ? state.epcisByCode.get(code) : state.communesByCode.get(code)?.profile;
     const detailPanel = document.getElementById("detailPanel");
     const detailContent = document.getElementById("detailContent");
+    detailContent.className = "";
     if (!p) { detailPanel.classList.remove("open"); return; }
     const name = isEpci ? p.name : state.communesByCode.get(code).name;
     const territoryType = isEpci && !p.special ? "EPCI" : "Commune";
