@@ -10,6 +10,7 @@
     scale: "commune",
     selected: null,
     activeLayer: null,
+    friches: [],
   };
 
   const LAYERS = {
@@ -31,6 +32,9 @@
   function pct(num, den) {
     if (num == null || !den) return null;
     return (num / den) * 100;
+  }
+  function htmlEsc(value) {
+    return String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
   }
   function fmt(v, unit) {
     if (v == null) return "Non disponible";
@@ -56,13 +60,23 @@
     d3.json("data/processed/communes95.json"),
     d3.json("data/processed/sol_commune_profiles.json"),
     d3.json("data/processed/sol_epci_profiles.json"),
-  ]).then(([dept95, communes95Geo, communes95, communeProfiles, epciProfiles]) => {
+    d3.json("data/processed/friches95.json"),
+  ]).then(([dept95, communes95Geo, communes95, communeProfiles, epciProfiles, friches95]) => {
     deptLayer = L.geoJSON(dept95, { style: { color: "#000091", weight: 2, fill: false, opacity: 0.55 } }).addTo(map);
 
     state.communes = communes95.map((c) => ({ ...c, profile: communeProfiles[c.code] }));
     state.communesByCode = new Map(state.communes.map((c) => [c.code, c]));
     state.epcis = Object.values(epciProfiles);
     state.epcisByCode = new Map(state.epcis.map((e) => [e.code, e]));
+    state.friches = (friches95.features || []).slice().sort((a, b) => {
+      const pa = a.properties || {}, pb = b.properties || {};
+      return `${pa.comm_nom || ""} ${pa.site_nom || ""}`.localeCompare(`${pb.comm_nom || ""} ${pb.site_nom || ""}`, "fr");
+    });
+    const fricheSelect = document.getElementById("fricheSelect");
+    fricheSelect.innerHTML = `<option value="">Choisir parmi ${state.friches.length} friches…</option>` + state.friches.map((feature) => {
+      const p = feature.properties || {};
+      return `<option value="${encodeURIComponent(feature.id)}">${htmlEsc(p.comm_nom || "Commune non renseignée")} · ${htmlEsc(p.site_nom || feature.id)}</option>`;
+    }).join("");
     prepareEpciColors();
 
     communesLayer = L.geoJSON(communes95Geo, {
@@ -276,6 +290,13 @@
     window.open(url, "_blank", "noopener");
   }
   ["openData", "openDataTop"].forEach((id) => document.getElementById(id)?.addEventListener("click", openTerritoryData));
+  document.getElementById("openFriche")?.addEventListener("click", () => {
+    const id = document.getElementById("fricheSelect").value;
+    if (id) window.open(`friche.html?id=${id}`, "_blank", "noopener");
+  });
+  document.getElementById("fricheSelect")?.addEventListener("change", (event) => {
+    if (event.target.value) window.open(`friche.html?id=${event.target.value}`, "_blank", "noopener");
+  });
 
   // ---------- Selection ----------
   function selectFromMap(code) {

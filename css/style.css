@@ -35,6 +35,7 @@ a{color:var(--blue)}
 .search-box>div{display:flex;height:44px;border:1px solid #bccbd2;border-radius:15px;overflow:hidden}
 .search-box input{border:0;padding:0 13px;width:100%;outline:0}
 .search-box button{width:42px;border:0;background:var(--navy);color:#fff;font-weight:700}
+.search-box select{border:0;padding:0 10px;width:100%;min-width:0;outline:0;background:#fff;color:var(--ink);font:inherit;font-size:11px;text-overflow:ellipsis}.friche-selector{margin-top:2px}.friche-selector>span{color:#8a4b12}.friche-selector>div{border-color:#d8b38a}.friche-selector button{background:#8a4b12;flex:0 0 42px}
 .search-results{position:absolute;left:20px;right:20px;top:218px;width:auto;background:#fff;box-shadow:var(--shadow);border:1px solid var(--line);border-radius:12px;z-index:1002;overflow:hidden;max-height:230px;overflow-y:auto}
 .search-results button{width:100%;text-align:left;background:#fff;border:0;border-bottom:1px solid var(--line);padding:11px 13px;font-size:12px}
 .search-results button:hover{background:var(--pale)}

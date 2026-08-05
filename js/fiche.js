@@ -10,7 +10,7 @@
 
   function kpi(label, node, note = "") {
     const value = node?.value;
-    const display = value == null ? '<span class="data-missing">Non disponible</span>' : `${fmt(value)}${node.unit === "%" ? " %" : node.unit ? " " + node.unit : ""}`;
+    const display = value == null ? '<span class="data-missing">Non disponible</span>' : `${fmt(value, node.unit === "logements" || node.unit === "sites" ? 0 : 1)}${node.unit === "%" ? " %" : node.unit ? " " + node.unit : ""}`;
     return `<div class="kpi"><small>${label}</small><strong>${display}</strong>${note ? `<span>${note}</span>` : ""}</div>`;
   }
   function section(kicker, title, content, note = "") {
