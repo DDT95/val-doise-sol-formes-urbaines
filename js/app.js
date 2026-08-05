@@ -11,6 +11,7 @@
     selected: null,
     activeLayer: null,
     friches: [],
+    frichesVisible: false,
   };
 
   const LAYERS = {
@@ -38,7 +39,7 @@
   }
   function fmt(v, unit) {
     if (v == null) return "Non disponible";
-    const n = unit === "%" ? v.toFixed(1).replace(".", ",") + " %" : Math.round(v).toLocaleString("fr-FR") + (unit && unit !== "%" ? " " + unit : "");
+    const n = unit === "%" ? v.toFixed(1).replace(".", ",") + " %" : unit === "ha" ? v.toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " ha" : Math.round(v).toLocaleString("fr-FR") + (unit && unit !== "%" ? " " + unit : "");
     return n;
   }
 
@@ -51,7 +52,7 @@
     maxZoom: 19,
   }).addTo(map);
 
-  let communesLayer, deptLayer;
+  let communesLayer, deptLayer, frichesLayer;
   const territoryTooltip = L.tooltip({ sticky: true, className: "commune-tip", direction: "top", offset: [0, -8] });
 
   Promise.all([
@@ -72,11 +73,20 @@
       const pa = a.properties || {}, pb = b.properties || {};
       return `${pa.comm_nom || ""} ${pa.site_nom || ""}`.localeCompare(`${pb.comm_nom || ""} ${pb.site_nom || ""}`, "fr");
     });
-    const fricheSelect = document.getElementById("fricheSelect");
-    fricheSelect.innerHTML = `<option value="">Choisir parmi ${state.friches.length} friches…</option>` + state.friches.map((feature) => {
+    const fricheItems = [];
+    state.friches.forEach((feature) => {
       const p = feature.properties || {};
-      return `<option value="${encodeURIComponent(feature.id)}">${htmlEsc(p.comm_nom || "Commune non renseignée")} · ${htmlEsc(p.site_nom || feature.id)}</option>`;
-    }).join("");
+      const tooltip = `<b>${htmlEsc(p.site_nom || feature.id)}</b><br>${htmlEsc(p.comm_nom || "Commune non renseignée")}`;
+      const polygon = L.geoJSON(feature, { style: () => ({ color: "#8a4b12", weight: 1.5, fillColor: "#d88931", fillOpacity: 0.28 }) });
+      const center = polygon.getBounds().getCenter();
+      const point = L.circleMarker(center, { radius: 7, color: "#fff", weight: 2, fillColor: "#b8752a", fillOpacity: 1 });
+      [polygon, point].forEach((layer) => {
+        layer.bindTooltip(tooltip, { sticky: true });
+        layer.on("click", (event) => { L.DomEvent.stopPropagation(event); renderFricheDetail(feature); });
+        fricheItems.push(layer);
+      });
+    });
+    frichesLayer = L.layerGroup(fricheItems);
     prepareEpciColors();
 
     communesLayer = L.geoJSON(communes95Geo, {
@@ -188,8 +198,22 @@
 
   document.querySelectorAll(".layer-card").forEach((btn) => {
     btn.addEventListener("click", () => {
+      if (btn.dataset.layer === "friches_nombre") {
+        state.frichesVisible = !state.frichesVisible;
+        btn.classList.toggle("active", state.frichesVisible);
+        if (state.frichesVisible) {
+          frichesLayer?.addTo(map);
+          frichesLayer?.eachLayer((layer) => layer.bringToFront?.());
+          document.getElementById("mapStatus").textContent = `${state.friches.length} friches affichées · cliquez sur un site pour ouvrir son volet`;
+        } else {
+          if (frichesLayer) map.removeLayer(frichesLayer);
+          document.getElementById("detailPanel").classList.remove("open");
+          renderEmptyState();
+        }
+        return;
+      }
       const turningOff = btn.classList.contains("active");
-      document.querySelectorAll(".layer-card").forEach((b) => b.classList.toggle("active", !turningOff && b === btn));
+      document.querySelectorAll(".layer-card:not([data-layer='friches_nombre'])").forEach((b) => b.classList.toggle("active", !turningOff && b === btn));
       state.activeLayer = turningOff ? null : btn.dataset.layer;
       state.selected = null;
       searchInput.value = "";
@@ -290,13 +314,6 @@
     window.open(url, "_blank", "noopener");
   }
   ["openData", "openDataTop"].forEach((id) => document.getElementById(id)?.addEventListener("click", openTerritoryData));
-  document.getElementById("openFriche")?.addEventListener("click", () => {
-    const id = document.getElementById("fricheSelect").value;
-    if (id) window.open(`friche.html?id=${id}`, "_blank", "noopener");
-  });
-  document.getElementById("fricheSelect")?.addEventListener("change", (event) => {
-    if (event.target.value) window.open(`friche.html?id=${event.target.value}`, "_blank", "noopener");
-  });
 
   // ---------- Selection ----------
   function selectFromMap(code) {
@@ -333,6 +350,39 @@
   }
 
   // ---------- Detail panel ----------
+  function renderFricheDetail(feature) {
+    const p = feature.properties || {};
+    const detailPanel = document.getElementById("detailPanel");
+    const detailContent = document.getElementById("detailContent");
+    const area = p.site_surface == null ? null : p.site_surface / 10000;
+    const profileUrl = `friche.html?id=${encodeURIComponent(feature.id)}`;
+    const pollution = p.sol_pollution_existe && p.sol_pollution_existe !== "inconnu" ? p.sol_pollution_existe : "Non renseignée";
+    const status = p.site_statut && p.site_statut !== "inconnu" ? p.site_statut : "Non renseigné";
+    const occupation = p.site_occupation && p.site_occupation !== "inconnu" ? p.site_occupation : "Non renseignée";
+    detailContent.innerHTML = `
+      <span class="detail-tag">FRICHE · CARTOFRICHES</span>
+      <h2>${htmlEsc(p.site_nom || feature.id)}</h2>
+      <p class="subtitle">${htmlEsc(p.comm_nom || "Commune non renseignée")} · site recensé</p>
+      <div class="kpi-grid">
+        <div class="kpi-tile"><small>Surface du site</small><strong>${area == null ? "Non renseignée" : fmt(area, "ha")}</strong></div>
+        <div class="kpi-tile"><small>Type de friche</small><strong>${htmlEsc(p.site_type || "Non renseigné")}</strong></div>
+        <div class="kpi-tile"><small>Statut</small><strong>${htmlEsc(status)}</strong></div>
+        <div class="kpi-tile"><small>Occupation</small><strong>${htmlEsc(occupation)}</strong></div>
+      </div>
+      <div class="section-block">
+        <strong>Urbanisme et état du site</strong>
+        <div class="kpi-grid">
+          <div class="kpi-tile"><small>Zonage</small><strong>${htmlEsc(p.urba_zone_lib || p.urba_zone_type || "Non renseigné")}</strong></div>
+          <div class="kpi-tile"><small>Pollution des sols</small><strong>${htmlEsc(pollution)}</strong></div>
+          <div class="kpi-tile"><small>Bâtiments recensés</small><strong>${p.bati_nombre == null ? "Non renseigné" : Math.round(p.bati_nombre).toLocaleString("fr-FR")}</strong></div>
+          <div class="kpi-tile"><small>Source</small><strong>${htmlEsc(p.source_nom || p.source_producteur || "Cartofriches")}</strong></div>
+        </div>
+      </div>
+      <a class="profile-link" href="${profileUrl}" target="_blank" rel="noopener">Voir la fiche complète et le PDF <span>↗</span></a>
+      <p class="detail-method">Une friche recensée constitue un potentiel à qualifier. La présence dans Cartofriches ne vaut ni diagnostic de pollution, ni décision de constructibilité.</p>`;
+    detailPanel.classList.add("open");
+  }
+
   function renderDetail(code) {
     const isEpci = state.scale === "epci";
     const p = isEpci ? state.epcisByCode.get(code) : state.communesByCode.get(code)?.profile;
