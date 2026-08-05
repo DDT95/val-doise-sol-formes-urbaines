@@ -17,7 +17,9 @@
   };
   function item(label, value, unit = "") {
     if (!present(value)) return "";
-    return `<div class="kpi"><small>${esc(label)}</small><strong>${esc(value)}${unit}</strong></div>`;
+    const text = String(value);
+    const valueClass = text.length > 60 ? " kpi-long" : text.length > 28 ? " kpi-text" : "";
+    return `<div class="kpi${valueClass}"><small>${esc(label)}</small><strong>${esc(value)}${unit}</strong></div>`;
   }
   function listBlock(label, values, variant = "") {
     const list = parseList(values);
