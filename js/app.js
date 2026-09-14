@@ -221,25 +221,37 @@
     document.getElementById("legendTitle").textContent = layerDef.label;
 
     if (layerDef.type === "categorical") {
+      const matchedLayers = [];
+      let totalKnown = 0, totalAll = 0;
       displayLayer.eachLayer((layer) => {
+        totalAll++;
         const code = layer.feature.properties.code;
         const isSelected = code === state.selected;
         const v = state.scale === "epci" ? layerDef.get(state.epcisByCode.get(code)) : valueForTerritoryCode(code);
-        const fill = v && layerDef.categories[v] ? layerDef.categories[v].color : "#e4e9ec";
+        const known = v && layerDef.categories[v];
+        if (known) { totalKnown++; matchedLayers.push(layer); }
         layer.setStyle({
-          fillColor: fill,
-          fillOpacity: v ? 0.72 : 0.35,
-          weight: isSelected ? 2.4 : 0.6,
-          color: isSelected ? "#070047" : "#8a9bb0",
+          fillColor: known ? layerDef.categories[v].color : "#e4e9ec",
+          fillOpacity: known ? 0.8 : 0.35,
+          weight: isSelected ? 2.8 : known ? 1.8 : 0.6,
+          color: isSelected ? "#070047" : known ? "#070047" : "#8a9bb0",
         });
-        if (isSelected) layer.bringToFront();
+        if (known || isSelected) layer.bringToFront();
       });
       legend.hidden = false;
       legend.querySelector(".ramp").hidden = true;
       legend.querySelector(".ramp-labels").hidden = true;
       legendCategories.hidden = false;
       legendCategories.innerHTML = Object.values(layerDef.categories).map((c) => `<div class="legend-row"><i class="legend-swatch" style="background:${c.color}"></i><span>${c.label}</span></div>`).join("") + `<div class="legend-row"><i class="legend-swatch" style="background:#e4e9ec"></i><span>Non renseigné</span></div>`;
-      document.getElementById("legendNote").textContent = "« Non renseigné » ne signifie pas « aucun dispositif » : à vérifier au cas par cas.";
+      const statusEl = document.getElementById("mapStatus");
+      if (totalKnown === 0) {
+        statusEl.textContent = `${layerDef.label} · aucune commune renseignée à ce jour sur ${totalAll} — couche prête, données à compléter par la DDT`;
+        document.getElementById("legendNote").textContent = "Cette couche n’a encore aucune commune renseignée : ce n’est pas une erreur d’affichage, la donnée manque. Voir « Sources, millésimes et licences ».";
+      } else {
+        statusEl.textContent = `${layerDef.label} · ${totalKnown} commune${totalKnown > 1 ? "s" : ""} renseignée${totalKnown > 1 ? "s" : ""} sur ${totalAll} (entourées en bleu foncé)`;
+        document.getElementById("legendNote").textContent = "« Non renseigné » (gris clair) ne signifie pas « aucun dispositif » : à vérifier au cas par cas.";
+        if (!state.selected && matchedLayers.length) map.fitBounds(L.featureGroup(matchedLayers).getBounds(), { padding: [60, 60], maxZoom: 12, animate: true });
+      }
       return;
     }
 
@@ -526,6 +538,8 @@
 
   function renderEmptyState() {
     document.getElementById("detailPanel").classList.remove("open");
+    const layerDef = state.activeLayer ? LAYERS[state.activeLayer] : null;
+    if (layerDef && layerDef.type === "categorical") return;
     document.getElementById("mapStatus").textContent = `Val-d’Oise · sélectionnez ${state.scale === "epci" ? "un EPCI" : "une commune"} pour comprendre sa trajectoire foncière`;
   }
 
