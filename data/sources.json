@@ -39,5 +39,25 @@
     "definition": "50 % de la consommation d'ENAF observée entre 2011 et 2020",
     "periode": "2021-2030",
     "prudence": "Ce repère ne remplace ni la territorialisation juridique ni les objectifs opposables des documents de planification."
+  },
+  "plaine_vallee_permis_louer": {
+    "producteur": "Communauté d'Agglomération Plaine Vallée",
+    "jeu": "Zonage Permis de louer — Délibéré (Andilly, Groslay, Moisselles, Montmagny, Saint-Gratien, Soisy-sous-Montmorency)",
+    "page": "https://www.data.gouv.fr/datasets/zonage-permis-de-louer-delibere/",
+    "date_recuperation": "2026-09-14",
+    "licence": "Non précisée sur data.gouv.fr — vérifier avant réutilisation externe",
+    "prudence": "Périmètre communiqué par l'EPCI compétent ; seules les communes listées ont mis en place le permis de louer à cette date à notre connaissance. Absence dans cette liste ≠ absence confirmée de dispositif : à vérifier auprès de chaque commune/EPCI pour compléter."
+  },
+  "dpu_local": {
+    "producteur": "Communes et EPCI du Val-d'Oise (délibérations locales) — à consolider par la DDT 95",
+    "jeu": "Droit de préemption urbain (simple ou renforcé) par commune",
+    "prudence": "Aucune source ouverte consolidée à l'échelle du Val-d'Oise identifiée à ce jour. Le Géoportail de l'Urbanisme (GPU) publie des périmètres de servitude d'urbanisme (DPU) commune par commune lorsqu'ils sont numérisés et versés par les collectivités ; une extraction GPU/Cerema ciblée sur le 95 permettrait d'alimenter data/raw/foncier_reglementaire_95.json. En attendant, la couche affiche 'Non renseigné' sur toutes les communes."
+  },
+  "sdrif_e": {
+    "producteur": "Région Île-de-France (GéoIDF)",
+    "jeu": "Secteurs d'urbanisation préférentielle ou de développement industriel — SDRIF-E",
+    "page": "https://www.data.gouv.fr/datasets/secteurs-durbanisation-preferentielle-ou-de-developpement-industriel-donnees-surfaciques-sdrif-e/",
+    "licence": "Licence Ouverte / Etalab",
+    "prudence": "Disponible en open data à l'échelle régionale mais pas encore croisé (SIG) avec les 183 communes du Val-d'Oise dans cet outil. Les capacités d'urbanisation résiduelles par commune (analyse enveloppe urbaine / gisements fonciers) relèvent d'études DRIEAT/IAU non publiées en open data exploitable automatiquement à ce jour. La couche 'Positionnement SDRIF' affiche donc 'Non disponible' en l'attente de ces données."
   }
 }

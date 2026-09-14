@@ -21,11 +21,45 @@
     part_appartements: { label: "Part d’appartements", unit: "%", ramp: ["#eef7f8", "#00a7b5", "#004a52"], get: (p) => p.formes.part_appartements.value },
     friches_nombre: { label: "Friches recensées", unit: "sites", ramp: ["#f5f0e6", "#b8752a", "#5c3200"], get: (p) => p.friches.nombre.value },
     friches_surface: { label: "Surface de friches recensée", unit: "ha", ramp: ["#f3eef9", "#6f4c9b", "#2e1a4d"], get: (p) => p.friches.surface.value },
+    sdrif_situation: {
+      label: "Situation au regard du SDRIF", type: "categorical",
+      categories: {
+        sous_capacite: { label: "Marge résiduelle disponible", color: "#18753c" },
+        conforme: { label: "Conforme au repère", color: "#3978b8" },
+        surconsommation: { label: "Surconsommation par rapport au repère", color: "#ce0500" },
+      },
+      get: (p) => p.sdrif?.situation?.value || null,
+    },
+    dpu_statut: {
+      label: "Droit de préemption urbain", type: "categorical",
+      categories: {
+        renforce: { label: "Renforcé", color: "#ce0500" },
+        simple: { label: "Simple", color: "#f2c94c" },
+        aucun: { label: "Aucun", color: "#c9d3da" },
+      },
+      get: (p) => p.reglementation?.dpu?.value || null,
+    },
+    permis_louer: {
+      label: "Permis de louer", type: "categorical",
+      categories: { actif: { label: "Instauré", color: "#6f4c9b" }, inactif: { label: "Non instauré", color: "#c9d3da" } },
+      get: (p) => p.reglementation?.permis_louer?.value || null,
+    },
+    permis_diviser: {
+      label: "Permis de diviser", type: "categorical",
+      categories: { actif: { label: "Instauré", color: "#00a7b5" }, inactif: { label: "Non instauré", color: "#c9d3da" } },
+      get: (p) => p.reglementation?.permis_diviser?.value || null,
+    },
   };
 
   document.querySelectorAll(".layer-card[data-layer]").forEach((btn) => {
     const def = LAYERS[btn.dataset.layer];
     if (!def) return;
+    if (def.type === "categorical") {
+      const colors = Object.values(def.categories).map((c) => c.color);
+      btn.style.setProperty("--layer-color", colors[0]);
+      btn.style.setProperty("--layer-gradient", `linear-gradient(135deg, ${colors.join(",")})`);
+      return;
+    }
     btn.style.setProperty("--layer-color", def.ramp[1]);
     btn.style.setProperty("--layer-gradient", `linear-gradient(135deg, ${def.ramp[0]}, ${def.ramp[1]})`);
   });
@@ -182,6 +216,37 @@
       return;
     }
 
+    const legend = document.getElementById("mapLegend");
+    const legendCategories = document.getElementById("legendCategories");
+    document.getElementById("legendTitle").textContent = layerDef.label;
+
+    if (layerDef.type === "categorical") {
+      displayLayer.eachLayer((layer) => {
+        const code = layer.feature.properties.code;
+        const isSelected = code === state.selected;
+        const v = state.scale === "epci" ? layerDef.get(state.epcisByCode.get(code)) : valueForTerritoryCode(code);
+        const fill = v && layerDef.categories[v] ? layerDef.categories[v].color : "#e4e9ec";
+        layer.setStyle({
+          fillColor: fill,
+          fillOpacity: v ? 0.72 : 0.35,
+          weight: isSelected ? 2.4 : 0.6,
+          color: isSelected ? "#070047" : "#8a9bb0",
+        });
+        if (isSelected) layer.bringToFront();
+      });
+      legend.hidden = false;
+      legend.querySelector(".ramp").hidden = true;
+      legend.querySelector(".ramp-labels").hidden = true;
+      legendCategories.hidden = false;
+      legendCategories.innerHTML = Object.values(layerDef.categories).map((c) => `<div class="legend-row"><i class="legend-swatch" style="background:${c.color}"></i><span>${c.label}</span></div>`).join("") + `<div class="legend-row"><i class="legend-swatch" style="background:#e4e9ec"></i><span>Non renseigné</span></div>`;
+      document.getElementById("legendNote").textContent = "« Non renseigné » ne signifie pas « aucun dispositif » : à vérifier au cas par cas.";
+      return;
+    }
+
+    legend.querySelector(".ramp").hidden = false;
+    legend.querySelector(".ramp-labels").hidden = false;
+    legendCategories.hidden = true;
+
     let values;
     if (state.scale === "commune") {
       values = state.communes.map((c) => (c.profile ? layerDef.get(c.profile) : null)).filter((v) => v != null);
@@ -206,10 +271,8 @@
       if (isSelected) layer.bringToFront();
     });
 
-    const legend = document.getElementById("mapLegend");
     legend.hidden = false;
     legend.querySelector(".ramp").style.background = `linear-gradient(90deg, ${layerDef.ramp.join(",")})`;
-    document.getElementById("legendTitle").textContent = layerDef.label;
     document.getElementById("legendMin").textContent = fmt(extent[0], layerDef.unit);
     document.getElementById("legendMax").textContent = fmt(extent[1], layerDef.unit);
     document.getElementById("legendNote").textContent = "Gris = donnée non disponible ou secrétisée.";
@@ -420,6 +483,22 @@
 
     const partialNote = isEpci && p.perimetre_partiel ? `<div class="flag-note">Indicateurs calculés sur les ${p.members_covered.length} communes val-d’oisiennes de cet EPCI (périmètre complet : ${p.members.length} communes, débordant sur un département voisin).</div>` : "";
 
+    const DPU_LABELS = { renforce: "Renforcé", simple: "Simple", aucun: "Aucun" };
+    const ACTIF_LABELS = { actif: "Instauré", inactif: "Non instauré" };
+    const SDRIF_LABELS = { sous_capacite: "Marge résiduelle disponible", conforme: "Conforme au repère", surconsommation: "Surconsommation" };
+    const tagVal = (raw, labels) => (raw && labels[raw]) || "Non renseigné";
+    const reglementationBlock = !isEpci ? `
+      <div class="section-block">
+        <strong>Outils fonciers &amp; réglementaires</strong>
+        <div class="kpi-grid">
+          <div class="kpi-tile"><small>Droit de préemption urbain</small><strong>${tagVal(p.reglementation?.dpu?.value, DPU_LABELS)}</strong></div>
+          <div class="kpi-tile"><small>Permis de louer</small><strong>${tagVal(p.reglementation?.permis_louer?.value, ACTIF_LABELS)}</strong></div>
+          <div class="kpi-tile"><small>Permis de diviser</small><strong>${tagVal(p.reglementation?.permis_diviser?.value, ACTIF_LABELS)}</strong></div>
+          <div class="kpi-tile"><small>Situation SDRIF</small><strong>${tagVal(p.sdrif?.situation?.value, SDRIF_LABELS)}</strong></div>
+        </div>
+        <p class="detail-method">« Non renseigné » signale une donnée manquante à ce jour, jamais l’absence confirmée d’un dispositif.</p>
+      </div>` : "";
+
     detailContent.innerHTML = `
       <span class="detail-tag">${territoryType.toUpperCase()} · SOL · FORMES URBAINES</span>
       <h2>${name}</h2>
@@ -438,6 +517,7 @@
           <div class="kpi-tile"><small>Surface recensée</small><strong>${fmt(fricheArea, "ha")}</strong><em>Potentiel à qualifier, pas automatiquement constructible</em></div>
         </div>
       </div>
+      ${reglementationBlock}
       <a class="profile-link" href="${profileUrl}" target="_blank" rel="noopener">Voir la fiche ${isEpci ? "EPCI" : "communale"} complète et le PDF <span>↗</span></a>
       <p class="detail-method">Sources : Cerema / DGALN, Fichiers fonciers 2011-2024 ; Cartofriches ; Insee 2023. Le repère ZAN est pédagogique et ne remplace pas les objectifs territorialisés des documents de planification.</p>
     `;

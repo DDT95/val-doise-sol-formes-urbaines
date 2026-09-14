@@ -1,0 +1,8 @@
+{
+  "_lisez_moi": "Placeholder en attente de données. Objectif : situer chaque commune au regard de ses capacités d'urbanisation résiduelles (ou d'une éventuelle surconsommation) par rapport au SDRIF-E. Aucune valeur commune par commune n'est disponible en donnée ouverte à ce jour : la DRIEAT / l'IAU Île-de-France produisent ce type d'analyse (enveloppe urbaine, capacités résiduelles des espaces urbanisés) mais elle n'est pas publiée en open data exploitable automatiquement. Le zonage régional SDRIF-E (secteurs d'urbanisation préférentielle / de développement industriel) est disponible en open data (Région Île-de-France, data.gouv.fr) mais nécessite un croisement géographique (SIG) avec les communes du Val-d'Oise qui n'a pas encore été fait ici. Dès que la DDT dispose d'un fichier (DRIEAT, IAU, ou croisement SIG du SDRIF-E), le compléter commune par commune ci-dessous puis relancer scripts/merge_reglementaire.py.",
+  "_schema": {
+    "situation_sdrif": "'sous_capacite' | 'conforme' | 'surconsommation' | null (non disponible)",
+    "capacite_residuelle_ha": "surface résiduelle mobilisable estimée, en hectares, ou null",
+    "commentaire": "précision qualitative libre"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_lisez_moi": "Table éditable à la main par la DDT 95. Une ligne = une commune (code INSEE 95xxx). Champs non renseignés = null, affichés comme 'Non renseigné' sur la carte (jamais confondu avec 'aucun'/'inactif'). Compléter au fur et à mesure des remontées communales/EPCI et republier via scripts/merge_reglementaire.py.",
+  "_schema": {
+    "dpu": "statut: 'simple' | 'renforce' | 'aucun' | null (non renseigné) — périmètre, base légale et date de délibération à préciser si connus",
+    "permis_louer": "statut: 'actif' | 'inactif' | null — dispositif d'autorisation préalable de mise en location (loi ALUR)",
+    "permis_diviser": "statut: 'actif' | 'inactif' | null — autorisation préalable de division de logement (loi ALUR)"
+  },
+  "95014": {
+    "commune": "Andilly",
+    "permis_louer": { "statut": "actif", "zone": "Ensemble du territoire communal", "deliberation": "2022", "source": "plaine_vallee_permis_louer" }
+  },
+  "95288": {
+    "commune": "Groslay",
+    "permis_louer": { "statut": "actif", "zone": "Ensemble du territoire communal", "deliberation": "2022", "source": "plaine_vallee_permis_louer" }
+  },
+  "95409": {
+    "commune": "Moisselles",
+    "permis_louer": { "statut": "actif", "zone": "Ensemble du territoire communal", "deliberation": "2022", "source": "plaine_vallee_permis_louer" }
+  },
+  "95427": {
+    "commune": "Montmagny",
+    "permis_louer": { "statut": "actif", "zone": "Ensemble du territoire communal", "deliberation": "2022", "source": "plaine_vallee_permis_louer" }
+  },
+  "95555": {
+    "commune": "Saint-Gratien",
+    "permis_louer": { "statut": "actif", "zone": "Ensemble du territoire communal", "deliberation": "2022", "source": "plaine_vallee_permis_louer" }
+  },
+  "95598": {
+    "commune": "Soisy-sous-Montmorency",
+    "permis_louer": { "statut": "actif", "zone": "Ensemble du territoire communal", "deliberation": "2022", "source": "plaine_vallee_permis_louer" }
+  }
+}

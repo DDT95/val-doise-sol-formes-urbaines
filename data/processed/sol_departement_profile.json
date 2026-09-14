@@ -15710,5 +15710,20 @@
         }
       }
     ]
+  },
+  "reglementation": {
+    "note": "Synthèse non pertinente à l'échelle départementale : DPU, permis de louer et permis de diviser sont des décisions communales ou intercommunales. Voir la fiche de chaque commune."
+  },
+  "sdrif": {
+    "situation": {
+      "value": null,
+      "quality_flag": "non_disponible"
+    },
+    "capacite_residuelle": {
+      "value": null,
+      "unit": "ha",
+      "quality_flag": "non_disponible"
+    },
+    "commentaire": null
   }
 }
