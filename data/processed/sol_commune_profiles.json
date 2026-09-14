@@ -3310,6 +3310,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95527": {
@@ -3537,6 +3572,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95127": {
@@ -4484,6 +4554,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95585": {
@@ -4735,6 +4840,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95572": {
@@ -5324,6 +5464,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95063": {
@@ -6044,6 +6219,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95500": {
@@ -6193,6 +6403,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95277": {
@@ -7459,6 +7704,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95252": {
@@ -7608,6 +7888,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95268": {
@@ -7980,6 +8295,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95306": {
@@ -8622,6 +8972,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95280": {
@@ -9143,6 +9528,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95607": {
@@ -9450,6 +9870,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95203": {
@@ -9599,6 +10054,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95219": {
@@ -9748,6 +10238,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95176": {
@@ -9943,6 +10468,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95582": {
@@ -10318,6 +10878,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95680": {
@@ -10541,6 +11136,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95476": {
@@ -10788,6 +11418,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95218": {
@@ -11197,6 +11862,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95197": {
@@ -11346,6 +12046,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95428": {
@@ -11495,6 +12230,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95424": {
@@ -12204,6 +12974,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95555": {
@@ -12463,6 +13268,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": "actif",
+        "zone": "Ensemble du territoire communal",
+        "deliberation": "2022",
+        "source": "plaine_vallee_permis_louer",
+        "quality_flag": "ok"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95598": {
@@ -12612,6 +13452,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": "actif",
+        "zone": "Ensemble du territoire communal",
+        "deliberation": "2022",
+        "source": "plaine_vallee_permis_louer",
+        "quality_flag": "ok"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95199": {
@@ -12807,6 +13682,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95323": {
@@ -13086,6 +13996,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95563": {
@@ -13235,6 +14180,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95210": {
@@ -13384,6 +14364,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95487": {
@@ -14293,6 +15308,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95313": {
@@ -14636,6 +15686,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95539": {
@@ -14863,6 +15948,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95637": {
@@ -15070,6 +16190,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95351": {
@@ -15511,6 +16666,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95019": {
@@ -15660,6 +16850,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95427": {
@@ -15859,6 +17084,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": "actif",
+        "zone": "Ensemble du territoire communal",
+        "deliberation": "2022",
+        "source": "plaine_vallee_permis_louer",
+        "quality_flag": "ok"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95052": {
@@ -16070,6 +17330,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95051": {
@@ -16574,6 +17869,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95488": {
@@ -17253,6 +18583,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95394": {
@@ -17505,6 +18870,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95250": {
@@ -17654,6 +19054,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95229": {
@@ -18781,6 +20216,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95288": {
@@ -19000,6 +20470,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": "actif",
+        "zone": "Ensemble du territoire communal",
+        "deliberation": "2022",
+        "source": "plaine_vallee_permis_louer",
+        "quality_flag": "ok"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95491": {
@@ -19149,6 +20654,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95060": {
@@ -19298,6 +20838,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95205": {
@@ -19447,6 +21022,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95371": {
@@ -19596,6 +21206,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95355": {
@@ -19745,6 +21390,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95574": {
@@ -19948,6 +21628,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95183": {
@@ -20097,6 +21812,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95091": {
@@ -20246,6 +21996,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95039": {
@@ -20473,6 +22258,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95612": {
@@ -20622,6 +22442,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95388": {
@@ -20771,6 +22626,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95652": {
@@ -21027,6 +22917,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95604": {
@@ -21428,6 +23353,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95211": {
@@ -21577,6 +23537,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95480": {
@@ -21726,6 +23721,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95392": {
@@ -21929,6 +23959,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95116": {
@@ -22078,6 +24143,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95370": {
@@ -22301,6 +24401,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95352": {
@@ -22450,6 +24585,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95430": {
@@ -22599,6 +24769,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95134": {
@@ -22748,6 +24953,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95256": {
@@ -22897,6 +25137,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95257": {
@@ -23046,6 +25321,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95504": {
@@ -23195,6 +25505,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95580": {
@@ -23344,6 +25689,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95641": {
@@ -23493,6 +25873,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95450": {
@@ -23642,6 +26057,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95509": {
@@ -23791,6 +26241,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95014": {
@@ -24123,6 +26608,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": "actif",
+        "zone": "Ensemble du territoire communal",
+        "deliberation": "2022",
+        "source": "plaine_vallee_permis_louer",
+        "quality_flag": "ok"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95369": {
@@ -24272,6 +26792,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95026": {
@@ -24645,6 +27200,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95149": {
@@ -24932,6 +27522,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95426": {
@@ -25081,6 +27706,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95088": {
@@ -25408,6 +28068,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95078": {
@@ -25557,6 +28252,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95058": {
@@ -25776,6 +28506,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95409": {
@@ -25925,6 +28690,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": "actif",
+        "zone": "Ensemble du territoire communal",
+        "deliberation": "2022",
+        "source": "plaine_vallee_permis_louer",
+        "quality_flag": "ok"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95056": {
@@ -26300,6 +29100,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95566": {
@@ -26449,6 +29284,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95042": {
@@ -26668,6 +29538,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95675": {
@@ -26817,6 +29722,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95120": {
@@ -27744,6 +30684,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95142": {
@@ -27893,6 +30868,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95241": {
@@ -28042,6 +31052,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95510": {
@@ -28191,6 +31236,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95446": {
@@ -28340,6 +31420,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95028": {
@@ -28804,6 +31919,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95353": {
@@ -28953,6 +32103,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95658": {
@@ -29102,6 +32287,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95436": {
@@ -29251,6 +32471,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95177": {
@@ -29400,6 +32655,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95459": {
@@ -29671,6 +32961,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95625": {
@@ -29820,6 +33145,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95592": {
@@ -29969,6 +33329,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95008": {
@@ -30118,6 +33513,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95628": {
@@ -30267,6 +33697,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95074": {
@@ -30510,6 +33975,41 @@
           }
         }
       ]
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95101": {
@@ -30659,6 +34159,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95535": {
@@ -30808,6 +34343,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95002": {
@@ -30957,6 +34527,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95395": {
@@ -31106,6 +34711,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95489": {
@@ -31255,6 +34895,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95271": {
@@ -31404,6 +35079,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95594": {
@@ -31553,6 +35263,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95660": {
@@ -31702,6 +35447,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95541": {
@@ -31851,6 +35631,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95678": {
@@ -32000,6 +35815,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95523": {
@@ -32149,6 +35999,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95365": {
@@ -32298,6 +36183,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95651": {
@@ -32447,6 +36367,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95529": {
@@ -32596,6 +36551,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95445": {
@@ -32745,6 +36735,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95150": {
@@ -32894,6 +36919,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95287": {
@@ -33043,6 +37103,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95040": {
@@ -33192,6 +37287,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95554": {
@@ -33341,6 +37471,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95452": {
@@ -33490,6 +37655,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95308": {
@@ -33639,6 +37839,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95169": {
@@ -33788,6 +38023,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95627": {
@@ -33937,6 +38207,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95584": {
@@ -34086,6 +38391,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95328": {
@@ -34235,6 +38575,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95270": {
@@ -34384,6 +38759,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95023": {
@@ -34533,6 +38943,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95213": {
@@ -34682,6 +39127,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95298": {
@@ -34831,6 +39311,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95253": {
@@ -34980,6 +39495,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95429": {
@@ -35129,6 +39679,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95456": {
@@ -35278,6 +39863,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95483": {
@@ -35427,6 +40047,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95170": {
@@ -35576,6 +40231,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95055": {
@@ -35725,6 +40415,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95676": {
@@ -35874,6 +40599,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95348": {
@@ -36023,6 +40783,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95166": {
@@ -36172,6 +40967,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95254": {
@@ -36321,6 +41151,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95094": {
@@ -36470,6 +41335,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95154": {
@@ -36619,6 +41519,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95061": {
@@ -36768,6 +41703,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95341": {
@@ -36917,6 +41887,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95059": {
@@ -37066,6 +42071,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95610": {
@@ -37215,6 +42255,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95011": {
@@ -37364,6 +42439,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95656": {
@@ -37513,6 +42623,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95422": {
@@ -37662,6 +42807,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95024": {
@@ -37811,6 +42991,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95102": {
@@ -37960,6 +43175,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95462": {
@@ -38109,6 +43359,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95258": {
@@ -38258,6 +43543,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95139": {
@@ -38407,6 +43727,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95690": {
@@ -38556,6 +43911,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95119": {
@@ -38705,6 +44095,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95181": {
@@ -38854,6 +44279,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95151": {
@@ -39003,6 +44463,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95447": {
@@ -39152,6 +44647,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95301": {
@@ -39301,6 +44831,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95633": {
@@ -39450,6 +45015,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95110": {
@@ -39599,6 +45199,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95012": {
@@ -39748,6 +45383,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95309": {
@@ -39897,6 +45567,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95543": {
@@ -40046,6 +45751,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95682": {
@@ -40195,6 +45935,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95316": {
@@ -40344,6 +46119,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95304": {
@@ -40493,6 +46303,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95054": {
@@ -40642,6 +46487,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95303": {
@@ -40791,6 +46671,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95379": {
@@ -40940,6 +46855,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95212": {
@@ -41089,6 +47039,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95295": {
@@ -41238,6 +47223,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95438": {
@@ -41387,6 +47407,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95331": {
@@ -41536,6 +47591,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95492": {
@@ -41685,6 +47775,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95493": {
@@ -41834,6 +47959,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95157": {
@@ -41983,6 +48143,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95046": {
@@ -42132,6 +48327,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95214": {
@@ -42281,6 +48511,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95144": {
@@ -42430,6 +48695,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95611": {
@@ -42579,6 +48879,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95387": {
@@ -42728,6 +49063,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   },
   "95141": {
@@ -42877,6 +49247,41 @@
         "quality_flag": "ok"
       },
       "sites": []
+    },
+    "reglementation": {
+      "dpu": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_louer": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      },
+      "permis_diviser": {
+        "value": null,
+        "zone": null,
+        "deliberation": null,
+        "source": null,
+        "quality_flag": "non_renseigne"
+      }
+    },
+    "sdrif": {
+      "situation": {
+        "value": null,
+        "quality_flag": "non_disponible"
+      },
+      "capacite_residuelle": {
+        "value": null,
+        "unit": "ha",
+        "quality_flag": "non_disponible"
+      },
+      "commentaire": null
     }
   }
 }

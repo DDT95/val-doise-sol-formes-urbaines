@@ -147,6 +147,9 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
 .choropleth-legend .ramp{height:10px;border-radius:99px;background:linear-gradient(90deg,#eef7f8,#00a7b5,#070047)}
 .choropleth-legend .ramp-labels{display:flex;justify-content:space-between;font-size:9px;color:var(--muted);margin-top:4px}
 .choropleth-legend p{margin:8px 0 0;font-size:9.5px;color:var(--muted);line-height:1.4}
+.legend-categories{display:flex;flex-direction:column;gap:5px}
+.legend-categories .legend-row{display:flex;align-items:center;gap:7px;font-size:10px;color:var(--ink)}
+.legend-categories .legend-swatch{width:11px;height:11px;border-radius:3px;flex:none}
 
 .kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
 .kpi-tile{border-top:3px solid var(--cyan);padding:11px;background:#f6f9fa;border-radius:6px}

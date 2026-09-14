@@ -87,6 +87,22 @@
       </div>
     </div>
 
+    <div class="layer-group" aria-label="Positionnement SDRIF et capacités résiduelles">
+      <span>SDRIF · CAPACITÉS RÉSIDUELLES</span>
+      <div class="layer-cards">
+        <button type="button" class="layer-card" data-layer="sdrif_situation"><i class="layer-swatch" aria-hidden="true"></i><span><b>Situation au regard du SDRIF</b><small>Sous-capacité, conforme ou surconsommation — donnée à venir</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
+    <div class="layer-group" aria-label="Outils fonciers et réglementaires">
+      <span>OUTILS FONCIERS & RÉGLEMENTAIRES</span>
+      <div class="layer-cards">
+        <button type="button" class="layer-card" data-layer="dpu_statut"><i class="layer-swatch" aria-hidden="true"></i><span><b>Droit de préemption urbain</b><small>Simple ou renforcé — donnée à consolider</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+        <button type="button" class="layer-card" data-layer="permis_louer"><i class="layer-swatch" aria-hidden="true"></i><span><b>Permis de louer</b><small>Communes ayant instauré l’autorisation préalable de mise en location</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+        <button type="button" class="layer-card" data-layer="permis_diviser"><i class="layer-swatch" aria-hidden="true"></i><span><b>Permis de diviser</b><small>Communes ayant instauré l’autorisation préalable de division</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
     <button id="openComprendre3" class="sources-inline">Sources, millésimes et licences</button>
     <div class="sidebar-footer">
       <div class="fresh-dot"></div>
@@ -100,6 +116,7 @@
       <strong id="legendTitle">Couche affichée</strong>
       <div class="ramp"></div>
       <div class="ramp-labels"><span id="legendMin">min</span><span id="legendMax">max</span></div>
+      <div class="legend-categories" id="legendCategories" hidden></div>
       <p id="legendNote"></p>
     </div>
     <div class="map-note"><span class="pulse" style="width:8px;height:8px;border-radius:50%;background:#28a745"></span><span id="mapStatus">Chargement des données…</span></div>
@@ -138,6 +155,14 @@
       <li>Cerema, Cartofriches, inventaire national en actualisation continue.</li>
       <li>Insee, Recensement de la population 2023 — Logement, pour un repère sur les formes résidentielles.</li>
       <li>IGN, OCS GE, pour la définition et la lecture de l’occupation et de l’usage du sol.</li>
+      <li>Communauté d’Agglomération Plaine Vallée, zonage du permis de louer (data.gouv.fr), pour les communes concernées.</li>
+    </ul>
+
+    <h3>Outils fonciers et réglementaires : où en est-on ?</h3>
+    <ul>
+      <li><strong>Permis de louer</strong> : renseigné pour les communes de la CA Plaine Vallée ayant délibéré et publié leur périmètre en open data. Les autres communes du Val-d’Oise apparaissent en « non renseigné », ce qui ne signifie pas qu’elles n’ont pas de dispositif — à vérifier et compléter au fil de l’eau.</li>
+      <li><strong>Permis de diviser</strong> et <strong>droit de préemption urbain (simple/renforcé)</strong> : aucune source ouverte consolidée à l’échelle du département n’a été identifiée. La structure de la carte et des fiches est prête ; il suffit à la DDT de compléter le fichier <code>data/raw/foncier_reglementaire_95.json</code> (une ligne par commune) puis de relancer le traitement pour que les couches se mettent à jour.</li>
+      <li><strong>Positionnement SDRIF / capacités résiduelles</strong> : le zonage régional SDRIF-E (secteurs d’urbanisation préférentielle) existe en open data mais n’a pas encore été croisé avec les communes du Val-d’Oise ; les capacités résiduelles précises relèvent d’analyses DRIEAT/IAU non publiées automatiquement. La couche reste affichée pour situer l’outil, avec la mention « non disponible » tant que ces données ne sont pas intégrées.</li>
     </ul>
 
     <h3>Limites méthodologiques</h3>
