@@ -53,6 +53,14 @@
     "jeu": "Droit de préemption urbain (simple ou renforcé) par commune",
     "prudence": "Aucune source ouverte consolidée à l'échelle du Val-d'Oise identifiée à ce jour. Le Géoportail de l'Urbanisme (GPU) publie des périmètres de servitude d'urbanisme (DPU) commune par commune lorsqu'ils sont numérisés et versés par les collectivités ; une extraction GPU/Cerema ciblée sur le 95 permettrait d'alimenter data/raw/foncier_reglementaire_95.json. En attendant, la couche affiche 'Non renseigné' sur toutes les communes."
   },
+  "sdrif_e_entites_geo": {
+    "producteur": "Région Île-de-France",
+    "jeu": "Entités géographiques — SDRIF-E (typologie de l'armature urbaine régionale par commune : cœur d'agglomération, couronne d'agglomération, villes moyennes, petites villes, communes rurales)",
+    "page": "https://www.data.gouv.fr/datasets/entites-geographiques-sdrif-e",
+    "date_recuperation": "2026-09-14",
+    "licence": "Licence Ouverte / Etalab (LOv2)",
+    "prudence": "Cette typologie situe le rôle attendu de chaque commune dans l'armature urbaine régionale du SDRIF-E ; ce n'est pas une mesure de capacité résiduelle en hectares, qui nécessiterait un croisement avec les gisements fonciers/dents creuses non disponible en open data à ce jour."
+  },
   "sdrif_e": {
     "producteur": "Région Île-de-France (GéoIDF)",
     "jeu": "Secteurs d'urbanisation préférentielle ou de développement industriel — SDRIF-E",

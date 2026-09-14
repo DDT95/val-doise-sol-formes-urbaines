@@ -21,14 +21,16 @@
     part_appartements: { label: "Part d’appartements", unit: "%", ramp: ["#eef7f8", "#00a7b5", "#004a52"], get: (p) => p.formes.part_appartements.value },
     friches_nombre: { label: "Friches recensées", unit: "sites", ramp: ["#f5f0e6", "#b8752a", "#5c3200"], get: (p) => p.friches.nombre.value },
     friches_surface: { label: "Surface de friches recensée", unit: "ha", ramp: ["#f3eef9", "#6f4c9b", "#2e1a4d"], get: (p) => p.friches.surface.value },
-    sdrif_situation: {
-      label: "Situation au regard du SDRIF", type: "categorical",
+    sdrif_entite_geo: {
+      label: "Typologie SDRIF-E (armature urbaine)", type: "categorical",
       categories: {
-        sous_capacite: { label: "Marge résiduelle disponible", color: "#18753c" },
-        conforme: { label: "Conforme au repère", color: "#3978b8" },
-        surconsommation: { label: "Surconsommation par rapport au repère", color: "#ce0500" },
+        coeur_agglomeration: { label: "Cœur d’agglomération", color: "#070047" },
+        couronne_agglomeration: { label: "Couronne d’agglomération", color: "#3978b8" },
+        villes_moyennes: { label: "Villes moyennes", color: "#7a9cc9" },
+        petites_villes: { label: "Petites villes", color: "#b7c9e0" },
+        communes_rurales: { label: "Communes rurales", color: "#eef2f9" },
       },
-      get: (p) => p.sdrif?.situation?.value || null,
+      get: (p) => p.sdrif?.entite_geo?.value || null,
     },
     dpu_statut: {
       label: "Droit de préemption urbain", type: "categorical",
@@ -497,7 +499,6 @@
 
     const DPU_LABELS = { renforce: "Renforcé", simple: "Simple", aucun: "Aucun" };
     const ACTIF_LABELS = { actif: "Instauré", inactif: "Non instauré" };
-    const SDRIF_LABELS = { sous_capacite: "Marge résiduelle disponible", conforme: "Conforme au repère", surconsommation: "Surconsommation" };
     const tagVal = (raw, labels) => (raw && labels[raw]) || "Non renseigné";
     const reglementationBlock = !isEpci ? `
       <div class="section-block">
@@ -506,9 +507,9 @@
           <div class="kpi-tile"><small>Droit de préemption urbain</small><strong>${tagVal(p.reglementation?.dpu?.value, DPU_LABELS)}</strong></div>
           <div class="kpi-tile"><small>Permis de louer</small><strong>${tagVal(p.reglementation?.permis_louer?.value, ACTIF_LABELS)}</strong></div>
           <div class="kpi-tile"><small>Permis de diviser</small><strong>${tagVal(p.reglementation?.permis_diviser?.value, ACTIF_LABELS)}</strong></div>
-          <div class="kpi-tile"><small>Situation SDRIF</small><strong>${tagVal(p.sdrif?.situation?.value, SDRIF_LABELS)}</strong></div>
+          <div class="kpi-tile"><small>Typologie SDRIF-E</small><strong>${p.sdrif?.entite_geo?.label || "Non renseigné"}</strong></div>
         </div>
-        <p class="detail-method">« Non renseigné » signale une donnée manquante à ce jour, jamais l’absence confirmée d’un dispositif.</p>
+        <p class="detail-method">« Non renseigné » signale une donnée manquante à ce jour, jamais l’absence confirmée d’un dispositif. La typologie SDRIF-E situe le rôle attendu de la commune dans l’armature urbaine régionale ; la capacité résiduelle en hectares n’est pas disponible en open data à ce jour.</p>
       </div>` : "";
 
     detailContent.innerHTML = `

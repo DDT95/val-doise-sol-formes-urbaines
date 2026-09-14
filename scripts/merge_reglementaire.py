@@ -44,9 +44,16 @@ def reglementation_for(code: str, foncier: dict) -> dict:
     }
 
 
-def sdrif_for(code: str, sdrif: dict) -> dict:
+def sdrif_for(code: str, sdrif: dict, entites_geo: dict) -> dict:
     row = sdrif.get(code, {})
+    entite = entites_geo.get(code, {})
     return {
+        "entite_geo": {
+            "value": entite.get("entite_geo_slug"),
+            "label": entite.get("entite_geo"),
+            "source": "sdrif_e_entites_geo" if entite else None,
+            "quality_flag": "ok" if entite else "non_disponible",
+        },
         "situation": {
             "value": row.get("situation_sdrif"),
             "quality_flag": "ok" if row.get("situation_sdrif") else "non_disponible",
@@ -60,20 +67,21 @@ def sdrif_for(code: str, sdrif: dict) -> dict:
     }
 
 
-def apply(profiles: dict, foncier: dict, sdrif: dict, code_key="code"):
+def apply(profiles: dict, foncier: dict, sdrif: dict, entites_geo: dict, code_key="code"):
     for code, profile in profiles.items():
         ref_code = profile.get(code_key, code)
         profile["reglementation"] = reglementation_for(ref_code, foncier)
-        profile["sdrif"] = sdrif_for(ref_code, sdrif)
+        profile["sdrif"] = sdrif_for(ref_code, sdrif, entites_geo)
 
 
 def main():
     foncier = {k: v for k, v in load(RAW / "foncier_reglementaire_95.json").items() if not k.startswith("_")}
     sdrif = {k: v for k, v in load(RAW / "sdrif_capacite_95.json").items() if not k.startswith("_")}
+    entites_geo = load(RAW / "sdrif_entites_geo_95.json").get("communes", {})
 
     commune_path = PROCESSED / "sol_commune_profiles.json"
     communes = load(commune_path)
-    apply(communes, foncier, sdrif)
+    apply(communes, foncier, sdrif, entites_geo)
     commune_path.write_text(json.dumps(communes, ensure_ascii=False, indent=2), encoding="utf-8")
 
     dept_path = PROCESSED / "sol_departement_profile.json"
@@ -81,7 +89,7 @@ def main():
     dept["reglementation"] = {
         "note": "Synthèse non pertinente à l'échelle départementale : DPU, permis de louer et permis de diviser sont des décisions communales ou intercommunales. Voir la fiche de chaque commune.",
     }
-    dept["sdrif"] = sdrif_for(dept.get("code", ""), sdrif)
+    dept["sdrif"] = sdrif_for(dept.get("code", ""), sdrif, entites_geo)
     dept_path.write_text(json.dumps(dept, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"Communes mises à jour : {len(communes)}")

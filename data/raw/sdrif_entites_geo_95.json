@@ -1,0 +1,737 @@
+{
+  "_lisez_moi": "Typologie SDRIF-E par commune (entité géographique structurante : Cœur d'agglomération, Couronne d'agglomération, Villes moyennes, Petites villes, Communes rurales). Source : Région Île-de-France, dataset data.gouv.fr 'Entités géographiques - SDRIF-E', filtré sur le département 95. Récupéré via l'API tabulaire data.gouv.fr le 2026-09-14. Cette typologie situe le rôle attendu de chaque commune dans l'armature urbaine régionale ; ce n'est PAS une mesure de capacité résiduelle en hectares (qui nécessiterait un croisement avec les gisements fonciers/dents creuses, non disponible en open data à ce jour).",
+  "communes": {
+    "95328": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95566": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95422": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95445": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95040": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95078": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95142": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95352": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95429": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95058": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95212": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95014": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95210": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95019": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95627": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95139": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95177": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95456": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95309": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95348": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95277": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95256": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95637": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95651": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95424": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95012": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95541": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95295": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95214": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95211": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95051": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95250": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95628": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95018": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95253": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95229": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95303": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95510": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95611": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95323": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95675": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95116": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95306": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95610": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95428": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95151": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95023": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95554": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95446": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95682": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95120": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95355": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95313": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95101": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95028": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95199": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95436": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95438": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95680": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95059": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95301": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95052": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95598": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95119": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95500": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95008": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95270": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95183": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95213": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95316": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95042": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95504": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95582": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95462": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95110": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95450": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95061": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95170": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95288": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95056": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95676": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95026": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95690": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95304": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95607": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95054": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95388": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95509": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95063": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95046": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95392": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95585": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95427": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95060": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95483": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95218": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95157": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95491": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95181": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95176": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95493": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95268": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95144": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95341": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95459": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95652": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95447": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95134": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95592": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95258": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95612": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95426": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95252": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95011": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95678": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95024": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95487": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95094": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95625": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95574": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95298": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95091": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95074": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95543": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95365": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95409": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95527": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95203": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95002": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95523": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95489": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95241": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95271": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95351": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95529": {
+      "entite_geo": "Villes moyennes",
+      "entite_geo_slug": "villes_moyennes"
+    },
+    "95604": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95371": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95594": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95660": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95127": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95387": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95150": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95254": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95205": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95488": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95039": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95369": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95658": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95055": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95535": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95353": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95370": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95102": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95141": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95430": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95572": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95149": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95379": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95656": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95395": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95308": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95452": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95539": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95480": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95331": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95088": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95287": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95169": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95584": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95154": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95394": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95166": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95492": {
+      "entite_geo": "Communes rurales",
+      "entite_geo_slug": "communes_rurales"
+    },
+    "95219": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95633": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95580": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95563": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95257": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95476": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95280": {
+      "entite_geo": "Couronne d'agglomération",
+      "entite_geo_slug": "couronne_agglomeration"
+    },
+    "95197": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    },
+    "95641": {
+      "entite_geo": "Petites villes",
+      "entite_geo_slug": "petites_villes"
+    },
+    "95555": {
+      "entite_geo": "Cœur d'agglomération",
+      "entite_geo_slug": "coeur_agglomeration"
+    }
+  }
+}
